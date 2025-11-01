@@ -18,6 +18,7 @@ export default function Home() {
           <div className="flex items-center gap-6">
             <Link href="/download" className="text-sm font-medium hover:text-primary transition-colors">下载</Link>
             <Link href="/tutorial" className="text-sm font-medium hover:text-primary transition-colors">教程</Link>
+            <Link href="/mods" className="text-sm font-medium hover:text-primary transition-colors">模组</Link>
             <a href="#features" className="text-sm font-medium hover:text-primary transition-colors">功能</a>
           </div>
         </div>

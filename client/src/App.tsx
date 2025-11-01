@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Download from "./pages/Download";
 import Tutorial from "./pages/Tutorial";
+import Mods from "./pages/Mods";
 
 function Router() {
   return (
@@ -14,6 +15,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/download"} component={Download} />
       <Route path={"/tutorial"} component={Tutorial} />
+      <Route path={"/mods"} component={Mods} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

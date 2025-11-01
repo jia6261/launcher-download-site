@@ -46,6 +46,7 @@ export default function DownloadPage() {
             <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">首页</Link>
             <Link href="/download" className="text-sm font-medium text-primary">下载</Link>
             <Link href="/tutorial" className="text-sm font-medium hover:text-primary transition-colors">教程</Link>
+            <Link href="/mods" className="text-sm font-medium hover:text-primary transition-colors">模组</Link>
           </div>
         </div>
       </nav>
